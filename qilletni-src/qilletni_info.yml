@@ -2,6 +2,6 @@ name: http
 version: 1.0.0
 author: Adam Yarris
 native_classes:
-  - is.yarr.qilletni.lib.http.Http
+  - dev.qilletni.lib.http.Http
 dependencies:
   - json:1.0.0

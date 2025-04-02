@@ -1,6 +1,6 @@
-package is.yarr.qilletni.lib.http.exceptions;
+package dev.qilletni.lib.http.exceptions;
 
-import is.yarr.qilletni.api.exceptions.QilletniException;
+import dev.qilletni.api.exceptions.QilletniException;
 
 public class UnableToSendHttpRequest extends QilletniException {
 

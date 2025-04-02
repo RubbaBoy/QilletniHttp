@@ -1,15 +1,15 @@
-package is.yarr.qilletni.lib.http;
+package dev.qilletni.lib.http;
 
-import is.yarr.qilletni.api.lang.types.EntityType;
-import is.yarr.qilletni.api.lang.types.IntType;
-import is.yarr.qilletni.api.lang.types.JavaType;
-import is.yarr.qilletni.api.lang.types.QilletniType;
-import is.yarr.qilletni.api.lang.types.StringType;
-import is.yarr.qilletni.api.lang.types.entity.EntityInitializer;
-import is.yarr.qilletni.api.lib.annotations.NativeOn;
-import is.yarr.qilletni.api.lib.annotations.SkipReturnTypeAdapter;
-import is.yarr.qilletni.lib.http.exceptions.IllegalHeaderTypeException;
-import is.yarr.qilletni.lib.http.exceptions.UnableToSendHttpRequest;
+import dev.qilletni.api.lang.types.EntityType;
+import dev.qilletni.api.lang.types.IntType;
+import dev.qilletni.api.lang.types.JavaType;
+import dev.qilletni.api.lang.types.QilletniType;
+import dev.qilletni.api.lang.types.StringType;
+import dev.qilletni.api.lang.types.entity.EntityInitializer;
+import dev.qilletni.api.lib.annotations.NativeOn;
+import dev.qilletni.api.lib.annotations.SkipReturnTypeAdapter;
+import dev.qilletni.lib.http.exceptions.IllegalHeaderTypeException;
+import dev.qilletni.lib.http.exceptions.UnableToSendHttpRequest;
 
 import java.io.IOException;
 import java.net.URI;
